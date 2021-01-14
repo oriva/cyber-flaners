@@ -1,0 +1,29 @@
+{
+  "name": "cyber-flaners",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Oriva <weelman93@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=127.0.0.1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "HOST=127.0.0.1 nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "nuxt-fullpage.js": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "sass-resources-loader": "^2.1.0"
+  }
+}
