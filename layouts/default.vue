@@ -1,9 +1,18 @@
 <template>
   <div>
-    <div>sdfsdfdsf</div>
-    <nuxt/>
+    <Header />
+    <nuxt />
   </div>
 </template>
+
+<script>
+  import Header from '~/components/Header.vue'
+  export default {
+    components: {
+      Header
+    }
+  };
+</script>
 
 <style>
 html {
