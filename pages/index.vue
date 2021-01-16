@@ -78,6 +78,10 @@ body {
   color: #FFF;
 }
 
+.section {
+  padding-top: 60px;
+}
+
 @keyframes flyEd {
   0% {
     bottom: 30%;
