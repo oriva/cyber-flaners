@@ -1,5 +1,7 @@
 # cyber-flaners
 
+https://www.youtube.com/channel/UCmp-L6Eb43xkpQG_FRHeEDg
+
 > Nuxt.js project
 
 ## Build Setup
